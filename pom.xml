@@ -9,7 +9,6 @@
 	<groupId>com.datumredsoft.shop</groupId>
 	<artifactId>datum-shop</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
 	<name>datum-shop</name>
 	<description>API para </description>
 	<properties>

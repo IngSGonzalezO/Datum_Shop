@@ -1,11 +1,10 @@
 package com.datumredsoft.shop.modelo;
 
-import com.datumredsoft.shop.entidades.Usuarios;
 
 public class RespuestaModelo {
 
 	private String estado;
-	private Usuarios usuarioRespuesta;
+	private ProductoscModelo productoRespuesta;
 	
 	public String getEstado() {
 		return estado;
@@ -13,12 +12,13 @@ public class RespuestaModelo {
 	public void setEstado(String estado) {
 		this.estado = estado;
 	}
-	public Usuarios getUsuarioRespuesta() {
-		return usuarioRespuesta;
+	public ProductoscModelo getProductoRespuesta() {
+		return productoRespuesta;
 	}
-	public void setUsuarioRespuesta(Usuarios usuarioRespuesta) {
-		this.usuarioRespuesta = usuarioRespuesta;
+	public void setProductoRespuesta(ProductoscModelo productoRespuesta) {
+		this.productoRespuesta = productoRespuesta;
 	}
+	
 	
 	
 }

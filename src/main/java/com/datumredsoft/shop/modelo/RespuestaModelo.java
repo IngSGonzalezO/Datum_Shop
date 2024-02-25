@@ -1,10 +1,11 @@
 package com.datumredsoft.shop.modelo;
 
+import java.util.List;
 
 public class RespuestaModelo {
 
 	private String estado;
-	private ProductoscModelo productoRespuesta;
+	private List<ProductosModelo> productoRespuesta;
 	
 	public String getEstado() {
 		return estado;
@@ -12,10 +13,10 @@ public class RespuestaModelo {
 	public void setEstado(String estado) {
 		this.estado = estado;
 	}
-	public ProductoscModelo getProductoRespuesta() {
+	public List<ProductosModelo> getProductoRespuesta() {
 		return productoRespuesta;
 	}
-	public void setProductoRespuesta(ProductoscModelo productoRespuesta) {
+	public void setProductoRespuesta(List<ProductosModelo> productoRespuesta) {
 		this.productoRespuesta = productoRespuesta;
 	}
 	
